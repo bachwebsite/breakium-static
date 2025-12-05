@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/bachwebsite/echelon/public/data/images/favicon-transparent.png" />
+    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/bachwebsite/echelon/public/data/images/favicon-transparent.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='/data/css/g.css'>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5808709323793475"
+         crossorigin="anonymous"></script>
+    <title>breakium - Games</title>
+</head>
+<body>
+    <nav class="top-nav">
+        <div class="nav-container">
+            <div class="logo"><a href="/"><strong>breakium</strong></a></div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section class="hero-section">
+            <h1 class="page-title">
+                <span class="title-games">breadside aura</span>
+            </h1>
+            <p class="page-subtitle">Discover and play amazing games</p>
+        </section>
+        
+        <section class="search-container">
+            <div class="search-wrapper">
+                <img src="https://cdn.jsdelivr.net/gh/bachwebsite/echelon/public/data/images/svg/search.svg" alt="Search" class="search-icon">
+                <input 
+                    type="text" 
+                    id="search" 
+                    placeholder="Search for games..." 
+                    autocomplete="off"
+                    spellcheck="false"
+                >
+                <button id="clearSearch" class="clear-search" style="display: none;">&times;</button>
+            </div>
+        </section>
+
+        <section class="games-container">
+            <div class="games-grid" id="gamesGrid">
+            </div>
+            <div id="noResults" class="no-results" style="display: none;">
+                <p>No games found matching your search.</p>
+            </div>
+        </section>
+    </main>
+
+    <a href="https://discord.gg/s4gXM6XUgH" target="_blank" class="discord-link">
+        <img src="https://cdn.jsdelivr.net/gh/bachwebsite/echelon/public/data/images/discord-2-xxl.png" alt="Discord">
+    </a>
+    
+    <script src='/data/js/search.js'></script>
+    <script src="/data/js/gloader.js"></script>
