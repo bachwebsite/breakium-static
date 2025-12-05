@@ -1,4 +1,4 @@
-fetch('https://cdn.jsdelivr.net/gh/bachwebsite/echelon/public/data/json/games.json')
+fetch('https://cdn.jsdelivr.net/gh/bachwebsite/breakium-static/data/json/games.json')
   .then(response => response.json())
   .then(data => {
     const gameContainer = document.body;
